@@ -4,8 +4,6 @@ import { GetServerSideProps } from "next";
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const res = await fetch("https://postman-echo.com/get?foo1=bar1&foo2=bar2");
   const data = await res.json();
-  console.log("This is what I have");
-  console.log(data.args);
   return { props: data };
 };
 
