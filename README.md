@@ -9,19 +9,23 @@ You will also need a Chrome extension (download [here](https://chrome.google.com
 
 ## How to run the project
 
-Install the dependencies and run the development server in production mode:
+Install the dependencies:
 
 ```bash
 npm install
-npm run dev
 ```
 
-Install the dependencies and run the development server in development mode:
+Build and run the server in production mode:
 
 ```bash
-npm install
 npm run build
 npm run start
+```
+
+Run the server in development mode:
+
+```bash
+npm run dev
 ```
 
 Navigate to [http://localhost:3000](http://localhost:3000).
